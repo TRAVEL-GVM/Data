@@ -1,4 +1,4 @@
-name: Atualizar dados EMFS manualmente
+name: Atualizar dados EMFs manualmente
 
 on:
   workflow_dispatch:
