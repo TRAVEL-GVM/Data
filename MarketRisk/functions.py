@@ -14,6 +14,7 @@ from config import *
 from io import BytesIO
 import requests
 from io import StringIO
+import lxml
 
 
 
