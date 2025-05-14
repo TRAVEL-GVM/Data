@@ -1,0 +1,7 @@
+pyjstat
+fredapi
+ecbdata
+fake_useragent
+yfinance
+pandas 
+numpy
