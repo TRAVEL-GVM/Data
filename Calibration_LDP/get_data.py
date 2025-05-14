@@ -45,7 +45,7 @@ if __name__ == "__main__":
     df_all_ldp = get_ldp_data(ALL_ENTREPRISE_MAP_INDICATORS_KEYS)
 
     # save data
-    folder_path = "Data"
+    folder_path = "Data/LDP"
     
     # Verifica se a pasta existe; se não, cria
     if not os.path.exists(folder_path):
