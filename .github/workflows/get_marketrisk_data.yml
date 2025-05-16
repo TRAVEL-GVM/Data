@@ -1,7 +1,8 @@
-name: Atualizar dados para Market Risk dashboard
-
+name: Atualizar dados para Market Risk dashboard diariamente
 on:
-  workflow_dispatch:
+  schedule:
+    - cron: '0 1 * * *'  # Executa todos os dias às 01:00 UTC
+  workflow_dispatch: 
 
 permissions:
   contents: write
