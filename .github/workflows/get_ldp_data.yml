@@ -1,7 +1,9 @@
 name: Atualizar dados para LDP calibration dashboard
 
 on:
-  workflow_dispatch:
+  schedule:
+    - cron: '0 3 1 * *'  # Executa às 03:00 UTC do dia 1 de cada mês
+  workflow_dispatch:  # Permite também executar manualmente
 
 permissions:
   contents: write
